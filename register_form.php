@@ -5,12 +5,17 @@
         border-style:solid;
        
     }
-    
+
+    p{
+        
+        text-align:center;
+    }
+
     </style>
     
 <div id=form>
 <form method = "post" action = "register_submit.php">
-    <h1><centre><b><u>Register</b></u></centre></h1>
+    <h1><centre>Register</centre></h1>
     <p>Enter Your Name:</p>
     <input type="text" name="name"/><br/>
     <p>Enter Your Email:</p>
